@@ -12,6 +12,7 @@
       bg-white
       p-4
       shadow-md
+      bg-gradient-to-b from-white to-stone-100
     "
   >
     <NuxtLink class="text-3xl font-mono" to="/">cartrader</NuxtLink>
