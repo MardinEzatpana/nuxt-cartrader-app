@@ -1,5 +1,5 @@
 export default defineNuxtRouteMiddleware((to, from) => {
-  if (to.path.includes("profile")) {
+  if (to.path.includes("view")) {
     const user = useSupabaseUser();
     if (user.value) {
       return;
